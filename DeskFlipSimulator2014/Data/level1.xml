@@ -1,0 +1,299 @@
+<level id="level1">
+		<!-- ROW 1 -->
+		<entity id="SCornerDesk" x="1.898"  z="2.5075">
+			<entity id="Panel" />
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="PanelCorner" />
+		</entity>
+		<entity id="SDesk"       x="3.117"  z="2.5075">
+			<entity id="Panel" />
+		</entity>
+		<entity id="SCornerDesk" x="4.387"  z="2.5075">
+			<entity id="Panel" />
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="PanelIntersection" />
+		</entity>
+		<entity id="SDesk"       x="5.606"  z="2.5075">
+			<entity id="Panel" />
+		</entity>
+		<entity id="SDesk"       x="6.876"  z="2.5075"  ry="90.0">
+			<entity id="Panel"                         ry="0.0" />
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="PanelIntersection"             ry="0.0" />
+		</entity>
+		<entity id="Panel"      x="8.095"  z="2.5075" />
+		<entity id="SDesk"       x="10.635" z="2.5075">
+			<entity id="Panel" />
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="PanelCorner" />
+		</entity>
+		<entity id="SCornerDesk" x="11.854" z="2.5075"  ry="270.0">
+			<entity id="Panel"                         ry="0.0" />
+		</entity>
+		<entity id="SCornerDesk" x="13.124" z="2.5075">
+			<entity id="Panel" />
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="PanelIntersection" />
+		</entity>
+		<entity id="SDesk"       x="14.343" z="2.5075">
+			<entity id="Panel" />
+			<entity id="Panel"                         ry="270.0" />
+			<entity id="PanelCorner"                   ry="270.0" />
+		</entity>
+		<entity id="SDesk"       x="16.883" z="2.5075">
+			<entity id="Panel" />
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="PanelCorner" />
+		</entity>
+		<entity id="SCornerDesk" x="18.102" z="2.5075"  ry="270.0">
+			<entity id="Panel"                         ry="0.0" />
+			<entity id="Panel"                         ry="270.0" />
+			<entity id="PanelCorner"                   ry="270.0" />
+		</entity>
+
+		<!-- ROW 2 -->
+		<entity id="SDesk"       x="1.898"  z="3.7265"  ry="90.0">
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="Panel"                         ry="180.0" />
+			<entity id="PanelCorner"                   ry="90.0" />
+		</entity>
+		<entity id="SDesk"       x="4.387"  z="3.7265"  ry="90.0">
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="Panel"                         ry="180.0" />
+			<entity id="PanelCorner"                   ry="90.0" />
+		</entity>
+		<entity id="SCornerDesk" x="6.876"  z="3.7265"  ry="90.0">
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="Panel"                         ry="180.0" />
+			<entity id="PanelCorner"                   ry="90.0" />
+		</entity>
+		<entity id="SDesk"       x="8.095"  z="3.7265"  ry="180.0">
+			<entity id="Panel"                         ry="180.0" />
+			<entity id="Panel"                         ry="270.0" />
+			<entity id="PanelCorner"                   ry="180.0" />
+		</entity>
+		<entity id="Panel"      x="10.635" z="3.7265"  ry="90.0" />
+		<entity id="SDesk"       x="11.854" z="3.7265"  ry="270.0">
+			<entity id="Panel"                         ry="180.0" />
+		</entity>
+		<entity id="SDesk"       x="13.124" z="3.7265"  ry="90.0">
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="Panel"                         ry="180.0" />
+			<entity id="PanelIntersection"             ry="90.0" />
+		</entity>
+		<entity id="Panel"      x="14.343" z="3.7265"  ry="270.0" />
+		<entity id="Panel"      x="16.883" z="3.7265"  ry="180.0" />
+		<entity id="SDesk"       x="18.102" z="3.7265"  ry="270.0">
+			<entity id="Panel"                         ry="180.0" />
+			<entity id="Panel"                         ry="270.0" />
+			<entity id="PanelCorner"                   ry="180.0" />
+		</entity>
+
+		<!-- ROW 3 -->
+
+		<!-- ROW 4 -->
+		<entity id="SDesk"       x="1.898"  z="6.2665"  ry="90.0">
+			<entity id="Panel"                         ry="0.0" />
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="PanelCorner"                   ry="0.0" />
+		</entity>
+		<entity id="SDesk"       x="4.387"  z="6.2665"  ry="90.0">
+			<entity id="Panel"                         ry="0.0" />
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="PanelCorner"                   ry="0.0" />
+		</entity>
+		<entity id="Panel"      x="5.606"  z="6.2665"  ry="270.0" />
+		<entity id="SDesk"       x="9.365"  z="6.2665"  ry="270.0">
+			<entity id="Panel"                         ry="0.0" />
+		</entity>
+		<entity id="SDesk"       x="10.635" z="6.2665"  ry="90.0">
+			<entity id="Panel"                         ry="0.0" />
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="PanelIntersection"             ry="0.0" />
+		</entity>
+		<entity id="Panel"      x="14.394" z="6.2665" />
+		<entity id="SDesk"       x="15.613" z="6.2665"  ry="270.0">
+			<entity id="Panel"                         ry="0.0" />
+			<entity id="Panel"                         ry="270.0" />
+			<entity id="PanelCorner"                   ry="270.0" />
+		</entity>
+		<entity id="SDesk"       x="18.102" z="6.2665"  ry="270.0">
+			<entity id="Panel"                         ry="0.0" />
+			<entity id="Panel"                         ry="270.0" />
+			<entity id="PanelCorner"                   ry="270.0" />
+		</entity>
+
+		<!-- ROW 5 -->
+		<entity id="SCornerDesk" x="1.898"  z="7.4855"  ry="90.0">
+			<entity id="Panel"                         ry="90.0" />
+		</entity>
+		<entity id="SDesk"       x="3.117"  z="7.4855"  ry="180.0" />
+		<entity id="SCornerDesk" x="4.387"  z="7.4855"  ry="90.0">
+			<entity id="Panel"                         ry="90.0" />
+		</entity>
+		<entity id="SDesk"       x="5.606"  z="7.4855"  ry="180.0">
+			<entity id="Panel"                         ry="270.0" />
+		</entity>
+		<entity id="SDesk"       x="8.146"  z="7.4855"  ry="180.0">
+			<entity id="Panel"                         ry="90.0" />
+		</entity>
+		<entity id="SCornerDesk" x="9.365"  z="7.4855"  ry="180.0" />
+		<entity id="SCornerDesk" x="10.635" z="7.4855"  ry="90.0">
+			<entity id="Panel"                         ry="90.0" />
+		</entity>
+		<entity id="SDesk"       x="11.854" z="7.4855"  ry="180.0">
+			<entity id="Panel"                         ry="270.0" />
+		</entity>
+		<entity id="SDesk"       x="14.394" z="7.4855"  ry="180.0">
+			<entity id="Panel"                         ry="90.0" />
+		</entity>
+		<entity id="SCornerDesk" x="15.613" z="7.4855"  ry="180.0" />
+		<entity id="SDesk"       x="16.883" z="7.4855"  ry="180.0">
+			<entity id="Panel"                         ry="90.0" />
+		</entity>
+		<entity id="SCornerDesk" x="18.102" z="7.4855"  ry="180.0">
+			<entity id="Panel"                         ry="270.0" />
+		</entity>
+
+		<!-- ROW 6 -->
+		<entity id="SCornerDesk" x="1.898"  z="8.7555">
+			<entity id="Panel" />
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="PanelIntersection" />
+		</entity>
+		<entity id="SDesk"       x="3.117"  z="8.7555">
+			<entity id="Panel" />
+		</entity>
+		<entity id="SCornerDesk" x="4.387"  z="8.7555">
+			<entity id="Panel" />
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="PanelIntersection" />
+		</entity>
+		<entity id="SDesk"       x="5.606"  z="8.7555">
+			<entity id="Panel"                         ry="0.0" />
+			<entity id="Panel"                         ry="270.0" />
+			<entity id="PanelIntersection"             ry="270.0" />
+		</entity>
+		<entity id="SDesk"       x="8.146"  z="8.7555">
+			<entity id="Panel" />
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="PanelIntersection" />
+		</entity>
+		<entity id="SCornerDesk" x="9.365"  z="8.7555"  ry="270.0">
+			<entity id="Panel"                         ry="0.0" />
+		</entity>
+		<entity id="SCornerDesk" x="10.635" z="8.7555">
+			<entity id="Panel" />
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="PanelIntersection" />
+		</entity>
+		<entity id="SDesk"       x="11.854" z="8.7555">
+			<entity id="Panel" />
+			<entity id="Panel"                         ry="270.0" />
+			<entity id="PanelIntersection"             ry="270.0" />
+		</entity>
+		<entity id="SDesk"       x="14.394" z="8.7555">
+			<entity id="Panel" />
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="PanelIntersection" />
+		</entity>
+		<entity id="SCornerDesk" x="15.613" z="8.7555"  ry="270.0">
+			<entity id="Panel"                         ry="0.0" />
+		</entity>
+		<entity id="SDesk"       x="16.883" z="8.7555">
+			<entity id="Panel" />
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="PanelIntersection" />
+		</entity>
+		<entity id="SCornerDesk" x="18.102" z="8.7555"  ry="270.0">
+			<entity id="Panel"                         ry="0.0" />
+			<entity id="Panel"                         ry="270.0" />
+			<entity id="PanelIntersection"             ry="270.0" />
+		</entity>
+
+		<!-- ROW 7 -->
+		<entity id="SDesk"       x="1.898"  z="9.9745"  ry="90.0">
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="Panel"                         ry="180.0" />
+			<entity id="PanelCorner"                   ry="90.0" />
+		</entity>
+		<entity id="SDesk"       x="4.387"  z="9.9745"  ry="90.0">
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="Panel"                         ry="180.0" />
+			<entity id="PanelCorner"                   ry="90.0" />
+		</entity>
+		<entity id="Panel"      x="5.606"  z="9.9745"  ry="180.0" />
+		<entity id="SDesk"       x="9.365"  z="9.9745"  ry="270.0">
+			<entity id="Panel"                         ry="180.0" />
+		</entity>
+		<entity id="SDesk"       x="10.635" z="9.9745"  ry="90.0">
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="Panel"                         ry="180.0" />
+			<entity id="PanelIntersection"             ry="90.0" />
+		</entity>
+		<entity id="Panel"      x="14.394" z="9.9745"  ry="90.0" />
+		<entity id="SDesk"       x="15.613" z="9.9745"  ry="270.0">
+			<entity id="Panel"                         ry="180.0" />
+			<entity id="Panel"                         ry="270.0" />
+			<entity id="PanelCorner"                   ry="180.0" />
+		</entity>
+		<entity id="SDesk"       x="18.102" z="9.9745"  ry="270.0">
+			<entity id="Panel"                         ry="180.0" />
+			<entity id="Panel"                         ry="270.0" />
+			<entity id="PanelCorner"                   ry="180.0" />
+		</entity>
+
+		<!-- ROW 8 -->
+
+		<!-- ROW 9 -->
+		<entity id="SDesk"       x="1.898"  z="12.5145" ry="90.0">
+			<entity id="Panel"                         ry="0.0" />
+			<entity id="PanelCorner"                   ry="0.0" />
+			<entity id="Panel"                         ry="90.0" />
+		</entity>
+		<entity id="Panel"      x="3.117"  z="12.5145"  ry="270.0" />
+		<entity id="DDesk"       x="8.095"  z="12.5145" ry="270.0" />
+		<entity id="DDesk"       x="9.365"  z="12.5145" ry="90.0" />
+		<entity id="DDesk"       x="15.613" z="12.5145" ry="270.0" />
+		<entity id="DDesk"       x="18.102" z="12.5145" ry="270.0" />
+
+		<!-- ROW 10 -->
+		<entity id="SCornerDesk" x="1.898"  z="13.7335" ry="90.0">
+			<entity id="Panel"                         ry="90.0" />
+			<entity id="PanelCorner"                   ry="90.0" />
+			<entity id="Panel"                         ry="180.0" />
+		</entity>
+		<entity id="SDesk"       x="3.117"  z="13.7335" ry="180.0">
+			<entity id="Panel"                         ry="180.0" />
+			<entity id="PanelCorner"                   ry="180.0" />
+			<entity id="Panel"                         ry="270.0" />
+		</entity>
+		<entity id="DDesk"       x="6.876"  z="13.7335" ry="180.0" />
+		<entity id="DCornerDesk" x="8.095"  z="13.7335" ry="180.0" />
+		<entity id="DCornerDesk" x="9.365"  z="13.7335" ry="90.0" />
+		<entity id="DDesk"       x="10.635" z="13.7335" ry="180.0" />
+		<entity id="DDesk"       x="14.393" z="13.7335" ry="180.0" />
+		<entity id="DCornerDesk" x="15.613" z="13.7335" ry="180.0" />
+		<entity id="DDesk"       x="16.883" z="13.7335" ry="180.0" />
+		<entity id="DCornerDesk" x="18.102" z="13.7335" ry="180.0" />
+
+		<!-- ROW 11 -->
+
+		<!-- ROW 12 -->
+		<entity id="DDesk"       x="1.898"  z="16.2735" ry="90.0" />
+		<entity id="DDesk"       x="4.336"  z="16.2735" ry="270.0" />
+		<entity id="DDesk"       x="9.365"  z="16.2735" />
+		<entity id="DCornerDesk" x="10.635" z="16.2735" ry="270.0" />
+		<entity id="DCornerDesk" x="11.854" z="16.2735" />
+		<entity id="DDesk"       x="13.073" z="16.2735" />
+		<entity id="DDesk"       x="18.102" z="16.2735" ry="270.0" />
+
+		<!-- ROW 13 -->
+		<entity id="DCornerDesk" x="1.898"  z="17.4925" ry="90.0" />
+		<entity id="DDesk"       x="3.117"  z="17.4925" ry="180.0" />
+		<entity id="DCornerDesk" x="4.226"  z="17.4925" ry="180.0" />
+		<entity id="DDesk"       x="10.635" z="17.4925" ry="270.0" />
+		<entity id="DDesk"       x="11.854" z="17.4925" ry="90.0" />
+		<entity id="DDesk"       x="16.883" z="17.4925" ry="180.0" />
+		<entity id="DCornerDesk" x="18.102" z="17.4925" ry="180.0" />
+</level>

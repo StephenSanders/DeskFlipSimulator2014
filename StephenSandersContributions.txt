@@ -1,0 +1,34 @@
+Desk Flip Simulator 2015
+
+My contributions were:
+
+Everything in Game EXCEPT Message.h and Message.cpp
+
+So my contributions were:
+Physics.h
+Physics.cpp
+PhysicsEntity.h
+PhysicsEntity.cpp
+DynamicEntity.h
+DynamicEntity.cpp
+DCornerDesk.h
+DCornerDesk.cpp
+DDesk.h
+DDest.cpp
+StaticEntity.h
+StaticEntity.cpp
+SCornerDesk.h
+SCornerDesk.cpp
+SDesk.h
+SDesk.cpp
+SPanel.h
+SPanel.cpp
+EnemyDesk.h
+EnemyDesk.cpp
+Floor.h
+Floor.cpp
+Player.h
+Player.cpp
+main.cpp
+GameScene.h
+GameScene.cpp

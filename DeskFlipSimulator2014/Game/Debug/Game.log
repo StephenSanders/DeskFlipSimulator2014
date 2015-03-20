@@ -1,0 +1,189 @@
+﻿Build started 5/6/2014 6:35:06 PM.
+     1>Project "C:\Users\Stephen\Video Game Programming\4220Group1\Game\Game\Game.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Game.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       _MeshContentTask:
+         ..\Data\cube.fbx
+         ..\Data\desk.fbx
+         ..\Data\desk_corner.fbx
+         ..\Data\desk_drawer.fbx
+         ..\Data\floor.fbx
+         ..\Data\panel.fbx
+         ..\Data\panel_corner.fbx
+         ..\Data\panel_intersection.fbx
+         ..\Data\room.fbx
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Stephen\Video Game Programming\4220Group1\Game\\Lib\Bullet\\" /ZI /nologo /W3 /WX- /Od /Oi /Oy- /D WIN32 /D _DEBUG /D _WIN32_WINNT=0x600 /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /MDd /GS- /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DCornerDesk.cpp DDesk.cpp DynamicEntity.cpp EnemyDesk.cpp GameScene.cpp main.cpp Message.cpp PhysicsEntity.cpp Player.cpp Floor.cpp SCornerDesk.cpp SDesk.cpp SPanel.cpp StaticEntity.cpp
+         Player.cpp
+     1>c:\users\stephen\video game programming\4220group1\game\game\player.cpp(44): warning C4244: 'argument' : conversion from 'double' to 'btScalar', possible loss of data
+     1>c:\users\stephen\video game programming\4220group1\game\game\player.cpp(51): warning C4305: 'argument' : truncation from 'double' to 'btScalar'
+     1>c:\users\stephen\video game programming\4220group1\game\game\player.cpp(143): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\stephen\video game programming\4220group1\game\game\player.cpp(151): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\stephen\video game programming\4220group1\game\game\player.cpp(159): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\stephen\video game programming\4220group1\game\game\player.cpp(165): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\stephen\video game programming\4220group1\game\game\player.cpp(201): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\stephen\video game programming\4220group1\game\game\player.cpp(202): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\stephen\video game programming\4220group1\game\game\player.cpp(295): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         Message.cpp
+         main.cpp
+         GameScene.cpp
+     1>c:\users\stephen\video game programming\4220group1\game\game\gamescene.cpp(349): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\stephen\video game programming\4220group1\game\game\gamescene.cpp(350): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\stephen\video game programming\4220group1\game\game\gamescene.cpp(457): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\stephen\video game programming\4220group1\game\game\gamescene.cpp(463): warning C4101: 'endFix' : unreferenced local variable
+     1>c:\users\stephen\video game programming\4220group1\game\game\gamescene.cpp(535): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\stephen\video game programming\4220group1\game\game\gamescene.cpp(538): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\stephen\video game programming\4220group1\game\game\gamescene.cpp(544): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\stephen\video game programming\4220group1\game\game\gamescene.cpp(550): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+         EnemyDesk.cpp
+         Generating Code...
+         Compiling...
+         StaticEntity.cpp
+         SPanel.cpp
+     1>c:\users\stephen\video game programming\4220group1\game\game\spanel.cpp(26): warning C4305: 'argument' : truncation from 'double' to 'const btScalar'
+     1>c:\users\stephen\video game programming\4220group1\game\game\spanel.cpp(53): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\stephen\video game programming\4220group1\game\game\spanel.cpp(72): warning C4305: 'argument' : truncation from 'double' to 'float'
+         SDesk.cpp
+         SCornerDesk.cpp
+         Floor.cpp
+         PhysicsEntity.cpp
+         DynamicEntity.cpp
+         DDesk.cpp
+         DCornerDesk.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\Game.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Stephen\Video Game Programming\4220Group1\Game\\Lib\Debug\\" Engine.lib BulletCollision_Debug.lib BulletDynamics_Debug.lib LinearMath_Debug.lib DirectXTK_x86d.lib DirectXTKAudio_x86d.lib d3d11.lib dxguid.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\Game.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\Game.lib" /MACHINE:X86 Debug\DCornerDesk.obj
+         Debug\DDesk.obj
+         Debug\DynamicEntity.obj
+         Debug\EnemyDesk.obj
+         Debug\GameScene.obj
+         Debug\main.obj
+         Debug\Message.obj
+         Debug\Physics.obj
+         Debug\PhysicsEntity.obj
+         Debug\Player.obj
+         Debug\Floor.obj
+         Debug\SCornerDesk.obj
+         Debug\SDesk.obj
+         Debug\SPanel.obj
+         Debug\StaticEntity.obj
+     1>Engine.lib(Camera.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Engine.lib(Camera.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>Engine.lib(Debug.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Engine.lib(Debug.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>Engine.lib(Entity.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Engine.lib(Entity.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>Engine.lib(Font.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Engine.lib(Font.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>Engine.lib(Game.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Engine.lib(Game.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>Engine.lib(Graphics.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Engine.lib(Graphics.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>Engine.lib(Hash.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Engine.lib(Hash.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>Engine.lib(Input.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Engine.lib(Input.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>Engine.lib(Model.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Engine.lib(Model.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>Engine.lib(Platform.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Engine.lib(Platform.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>Engine.lib(Scene.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Engine.lib(Scene.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>Engine.lib(Sound.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Engine.lib(Sound.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>Engine.lib(Time.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Engine.lib(Time.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>Engine.lib(Transform.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Engine.lib(Transform.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>Engine.lib(tinyxml2.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'Engine.lib(tinyxml2.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btAxisSweep3.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btAxisSweep3.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btCollisionAlgorithm.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btCollisionAlgorithm.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btDbvt.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btDbvt.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btDbvtBroadphase.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btDbvtBroadphase.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btDispatcher.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btDispatcher.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btOverlappingPairCache.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btOverlappingPairCache.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btQuantizedBvh.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btQuantizedBvh.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btActivatingCollisionAlgorithm.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btActivatingCollisionAlgorithm.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btBoxBoxCollisionAlgorithm.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btBoxBoxCollisionAlgorithm.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btBoxBoxDetector.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btBoxBoxDetector.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btCollisionDispatcher.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btCollisionDispatcher.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btCollisionObject.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btCollisionObject.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btCollisionWorld.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btCollisionWorld.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btCompoundCollisionAlgorithm.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btCompoundCollisionAlgorithm.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btCompoundCompoundCollisionAlgorithm.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btCompoundCompoundCollisionAlgorithm.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btConvexConcaveCollisionAlgorithm.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btConvexConcaveCollisionAlgorithm.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btConvexConvexAlgorithm.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btConvexConvexAlgorithm.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btConvexPlaneCollisionAlgorithm.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btConvexPlaneCollisionAlgorithm.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btDefaultCollisionConfiguration.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btDefaultCollisionConfiguration.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btEmptyCollisionAlgorithm.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btEmptyCollisionAlgorithm.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btGhostObject.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btGhostObject.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btHashedSimplePairCache.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btHashedSimplePairCache.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btManifoldResult.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btManifoldResult.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btSimulationIslandManager.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btSimulationIslandManager.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btSphereSphereCollisionAlgorithm.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btSphereSphereCollisionAlgorithm.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btSphereTriangleCollisionAlgorithm.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btSphereTriangleCollisionAlgorithm.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btUnionFind.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btUnionFind.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(SphereTriangleDetector.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(SphereTriangleDetector.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btBoxShape.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btBoxShape.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btBvhTriangleMeshShape.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btBvhTriangleMeshShape.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btCapsuleShape.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btCapsuleShape.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btCollisionShape.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btCollisionShape.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btCompoundShape.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btCompoundShape.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btConcaveShape.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btConcaveShape.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btConvexInternalShape.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btConvexInternalShape.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btConvexPolyhedron.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btConvexPolyhedron.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btConvexShape.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btConvexShape.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btOptimizedBvh.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btOptimizedBvh.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btPolyhedralConvexShape.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btPolyhedralConvexShape.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btSphereShape.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btSphereShape.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btStaticPlaneShape.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btStaticPlaneShape.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btTriangleCallback.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btTriangleCallback.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btTriangleMeshShape.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btTriangleMeshShape.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btContinuousConvexCollision.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btContinuousConvexCollision.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btConvexCast.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btConvexCast.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btGjkConvexCast.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btGjkConvexCast.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btGjkEpa2.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btGjkEpa2.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btGjkEpaPenetrationDepthSolver.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btGjkEpaPenetrationDepthSolver.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btGjkPairDetector.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btGjkPairDetector.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btMinkowskiPenetrationDepthSolver.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btMinkowskiPenetrationDepthSolver.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btPersistentManifold.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btPersistentManifold.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btRaycastCallback.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btRaycastCallback.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btSubSimplexConvexCast.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btSubSimplexConvexCast.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btVoronoiSimplexSolver.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btVoronoiSimplexSolver.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletCollision_Debug.lib(btPolyhedralContactClipping.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletCollision_Debug.lib(btPolyhedralContactClipping.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletDynamics_Debug.lib(btKinematicCharacterController.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletDynamics_Debug.lib(btKinematicCharacterController.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletDynamics_Debug.lib(btConeTwistConstraint.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletDynamics_Debug.lib(btConeTwistConstraint.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletDynamics_Debug.lib(btGeneric6DofConstraint.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletDynamics_Debug.lib(btGeneric6DofConstraint.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletDynamics_Debug.lib(btSequentialImpulseConstraintSolver.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletDynamics_Debug.lib(btSequentialImpulseConstraintSolver.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletDynamics_Debug.lib(btTypedConstraint.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletDynamics_Debug.lib(btTypedConstraint.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletDynamics_Debug.lib(btDiscreteDynamicsWorld.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletDynamics_Debug.lib(btDiscreteDynamicsWorld.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>BulletDynamics_Debug.lib(btRigidBody.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'BulletDynamics_Debug.lib(btRigidBody.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>LinearMath_Debug.lib(btAlignedAllocator.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LinearMath_Debug.lib(btAlignedAllocator.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>LinearMath_Debug.lib(btConvexHullComputer.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LinearMath_Debug.lib(btConvexHullComputer.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>LinearMath_Debug.lib(btGeometryUtil.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LinearMath_Debug.lib(btGeometryUtil.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>LinearMath_Debug.lib(btQuickprof.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LinearMath_Debug.lib(btQuickprof.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>LinearMath_Debug.lib(btVector3.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'LinearMath_Debug.lib(btVector3.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\vc120.pdb'; linking object as if no debug info
+     1>DirectXTK_x86d.lib(CommonStates.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK_x86d.lib(CommonStates.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK_x86d.lib(DDSTextureLoader.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK_x86d.lib(DDSTextureLoader.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK_x86d.lib(DGSLEffect.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK_x86d.lib(DGSLEffect.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK_x86d.lib(DGSLEffectFactory.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK_x86d.lib(DGSLEffectFactory.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK_x86d.lib(BinaryReader.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK_x86d.lib(BinaryReader.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK_x86d.lib(EffectCommon.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK_x86d.lib(EffectCommon.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK_x86d.lib(Model.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK_x86d.lib(Model.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK_x86d.lib(ModelLoadCMO.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK_x86d.lib(ModelLoadCMO.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK_x86d.lib(pch.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK_x86d.lib(pch.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK_x86d.lib(SpriteBatch.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK_x86d.lib(SpriteBatch.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK_x86d.lib(SpriteFont.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK_x86d.lib(SpriteFont.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK_x86d.lib(VertexTypes.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK_x86d.lib(VertexTypes.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK_x86d.lib(WICTextureLoader.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK_x86d.lib(WICTextureLoader.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTKAudio_x86d.lib(AudioEngine.obj) : warning LNK4099: PDB 'directxtkaudiodx.pdb' was not found with 'DirectXTKAudio_x86d.lib(AudioEngine.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtkaudiodx.pdb'; linking object as if no debug info
+     1>DirectXTKAudio_x86d.lib(SoundCommon.obj) : warning LNK4099: PDB 'directxtkaudiodx.pdb' was not found with 'DirectXTKAudio_x86d.lib(SoundCommon.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtkaudiodx.pdb'; linking object as if no debug info
+     1>DirectXTKAudio_x86d.lib(SoundEffect.obj) : warning LNK4099: PDB 'directxtkaudiodx.pdb' was not found with 'DirectXTKAudio_x86d.lib(SoundEffect.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtkaudiodx.pdb'; linking object as if no debug info
+     1>DirectXTKAudio_x86d.lib(SoundEffectInstance.obj) : warning LNK4099: PDB 'directxtkaudiodx.pdb' was not found with 'DirectXTKAudio_x86d.lib(SoundEffectInstance.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtkaudiodx.pdb'; linking object as if no debug info
+     1>DirectXTKAudio_x86d.lib(WaveBank.obj) : warning LNK4099: PDB 'directxtkaudiodx.pdb' was not found with 'DirectXTKAudio_x86d.lib(WaveBank.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtkaudiodx.pdb'; linking object as if no debug info
+     1>DirectXTKAudio_x86d.lib(WaveBankReader.obj) : warning LNK4099: PDB 'directxtkaudiodx.pdb' was not found with 'DirectXTKAudio_x86d.lib(WaveBankReader.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtkaudiodx.pdb'; linking object as if no debug info
+     1>DirectXTKAudio_x86d.lib(WAVFileReader.obj) : warning LNK4099: PDB 'directxtkaudiodx.pdb' was not found with 'DirectXTKAudio_x86d.lib(WAVFileReader.obj)' or at 'C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\directxtkaudiodx.pdb'; linking object as if no debug info
+         Game.vcxproj -> C:\Users\Stephen\Video Game Programming\4220Group1\Game\Debug\Game.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Game.tlog\unsuccessfulbuild".
+         Touching "Debug\Game.tlog\Game.lastbuildstate".
+     1>Done Building Project "C:\Users\Stephen\Video Game Programming\4220Group1\Game\Game\Game.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:34.01
